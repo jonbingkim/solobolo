@@ -1,0 +1,11 @@
+.nav-header {
+  border: 1px black solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3b5b5; /* Header background color */
+  color: #fff; /* Text color */
+  padding: 20px 0; /* Padding top and bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+

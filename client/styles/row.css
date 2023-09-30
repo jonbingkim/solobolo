@@ -1,0 +1,33 @@
+.game-row {
+  display: flex;
+  justify-content: space-evenly; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f0f0f0; /* Nicer color */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for a lifted effect */
+}
+
+.game-date {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.team {
+  display: flex; /* To arrange logo and name horizontally */
+  align-items: center; /* Center vertically within the team div */
+  margin-right: 20px; /* Add spacing between teams */
+}
+
+.team-logo {
+  width: auto;
+  height: 100px;
+  margin-right: 10px; /* Add spacing between logo and name */
+}
+
+.team-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
